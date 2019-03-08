@@ -5,6 +5,7 @@ def oxford_comma(array)
       str << "#{word}, "
     else 
       str << "and #{word}"
+    end
   end
   str
 end
