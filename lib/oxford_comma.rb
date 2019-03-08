@@ -1,5 +1,9 @@
 def oxford_comma(array)
   str=""
+  if array.length == 1 
+    str << array.shift
+  elsif array.length == 2 
+    str << array.
   array.each_with_index do |word, i|
     if i + 1 < array.length 
       str << "#{word}, "
